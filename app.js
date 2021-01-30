@@ -1,11 +1,11 @@
-const express = require ('express');
-
-const app = express();
+const express = require('express')
+const app = express()
+const port = 3000
 
 app.get('/', (req, res) => {
-   res.send('<h1>My Node App</h1>');
-});
+  res.send('Hello World!')
+})
 
-app.listen(5000, () => {
-    console.log ('App listneng on port 5000');
-}); 
+app.listen(port, () => {
+    console.log ('App listneng on port 3000')
+}) 
