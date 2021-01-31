@@ -2,7 +2,7 @@
   "name": "nodeapp",
   "version": "2.0.0",
   "description": "a pack file",
-  "main": "app.js",
+  "main": "index.html",
   "dependencies": {
     "stack-trace": "^0.0.10"
   },
